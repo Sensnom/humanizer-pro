@@ -38,16 +38,16 @@ humanizer-pro/
 
 ## 安装
 
-克隆到 Claude Code 的 skills 目录：
+使用 skills CLI 安装：
+
+```bash
+npx skills add https://github.com/Sensnom/humanizer-pro.git
+```
+
+也可以手动克隆到 Claude Code 的 skills 目录：
 
 ```bash
 git clone git@github.com:Sensnom/humanizer-pro.git ~/.claude/skills/humanizer-pro
-```
-
-也可以先克隆到其他位置，再复制到 skills 目录：
-
-```bash
-cp -r humanizer-pro ~/.claude/skills/humanizer-pro
 ```
 
 安装后，Claude Code 会根据 `SKILL.md` 里的 description 判断什么时候使用它。
