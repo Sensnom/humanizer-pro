@@ -6,6 +6,7 @@ allowed-tools:
   - Read
   - Write
   - Edit
+  - Task
   - AskUserQuestion
 metadata:
   language: zh-CN
